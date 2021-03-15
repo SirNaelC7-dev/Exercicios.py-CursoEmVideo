@@ -1,7 +1,6 @@
 nums = list()
 pares = list()
 impares = list()
-opcao = 'S'
 pos = 0
 while True:
 	n = int(input('Digite um número:'))

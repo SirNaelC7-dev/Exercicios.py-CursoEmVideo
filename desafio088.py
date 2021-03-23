@@ -11,8 +11,8 @@ while qjogos != 0:
 			cont += 1
 			if cont >= 6:
 				break
+	palpite.sort()
 	palpites.append(palpite[:])
 	palpite.clear()
 	qjogos-=1
-	
 print(palpites)
